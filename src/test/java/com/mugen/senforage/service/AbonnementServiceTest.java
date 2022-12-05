@@ -58,4 +58,9 @@ public class AbonnementServiceTest {
         Assertions.assertTrue(true);
     }
 
+    @Test
+    void calculSimple() {
+        Assertions.assertEquals(4, 2 + 2);
+    }
+
 }
